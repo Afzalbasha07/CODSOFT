@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3498db; /* Set background color to blue */
+    color: #fff; /* Set text color to white */
+  }
+  
+  .calculator {
+    text-align:center;
+    background-color: #fff; /* Set calculator background color to white */
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+  }
+  
+  #display {
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db; /* Set button background color to blue */
+    color: #fff; /* Set button text color to white */
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

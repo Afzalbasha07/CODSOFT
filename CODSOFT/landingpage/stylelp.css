@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #4479d5;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.service {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Styles for the login and signup forms (placeholders) */
+#login input,
+#signup input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Additional styling for specific sections */
+#about,
+#services,
+#contact {
+  background-color: #f4f4f4;
+}
+
+#login,
+#signup {
+  background-color: #e6e6e6;
+}
